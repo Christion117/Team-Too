@@ -1,23 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Ticket from './components/Ticket';
+import Authentication from './components/Authentication';
+import Button from 'react-bootstrap/Button';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Team Too!
-        </a>
-      </header>
+      <Ticket />
+      <Authentication />
+      <Button variant="primary">Primary</Button>{' '}
     </div>
   );
 }
