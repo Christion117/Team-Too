@@ -1,7 +1,9 @@
 import React from 'react'
 import { useState } from 'react'
+import { withAuthenticator } from "@aws-amplify/ui-react";
 
-export default function User() {
+
+function User() {
   const [userID, setUserID] = useState('')
   const [userHistory, setUserHistory] = useState({})
   
@@ -9,3 +11,5 @@ export default function User() {
     <div>User</div>
   )
 }
+
+export default withAuthenticator(User)

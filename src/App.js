@@ -5,6 +5,8 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import User from "./components/User";
+import { withAuthenticator } from "@aws-amplify/ui-react";
 
 export default function App() {
   return (
@@ -19,7 +21,7 @@ export default function App() {
               <Link to="/about">About</Link>
             </li>
             <li>
-              <Link to="/users">Users</Link>
+              <Link to="/user">User</Link>
             </li>
           </ul>
         </nav>
@@ -30,8 +32,8 @@ export default function App() {
           <Route path="/about">
             <About />
           </Route>
-          <Route path="/users">
-            <Users />
+          <Route path="/user">
+            <User />
           </Route>
           <Route path="/">
             <Home />
@@ -48,8 +50,4 @@ function Home() {
 
 function About() {
   return <h2>About</h2>;
-}
-
-function Users() {
-  return <h2>Users</h2>;
 }
