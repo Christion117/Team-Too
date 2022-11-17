@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "paths": {
+    "/events": {
+      "name": "/events",
+      "lambdaFunction": "teamtoo802e6c72",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update"
+        ]
+      }
+    },
+    "/cofcEvents/{eventID}": {
+      "name": "/cofcEvents/{eventID}",
+      "lambdaFunction": "cofcEventHandler",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

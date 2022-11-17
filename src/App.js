@@ -6,7 +6,12 @@ import {
   Link
 } from "react-router-dom";
 import User from "./components/User";
+import Main from "./pages/Main";
+import Event from "./pages/Event";
+
 import { withAuthenticator } from "@aws-amplify/ui-react";
+import EventList from "./pages/EventList";
+import Cart from "./pages/Cart";
 
 export default function App() {
   return (
@@ -21,7 +26,16 @@ export default function App() {
               <Link to="/about">About</Link>
             </li>
             <li>
-              <Link to="/user">User</Link>
+              <Link to="/user">Usser</Link>
+            </li>
+            <li>
+              <Link to="/event">Event</Link>
+            </li>
+            <li>
+              <Link to="/eventlist">Event List</Link>
+            </li>
+            <li>
+              <Link to="/cart">Cart</Link>
             </li>
           </ul>
         </nav>
@@ -35,8 +49,17 @@ export default function App() {
           <Route path="/user">
             <User />
           </Route>
+          <Route path="/event">
+            <Event />
+          </Route>
+          <Route path="/eventlist">
+            <EventList />
+          </Route>
+          <Route path="/cart">
+            <Cart />
+          </Route>
           <Route path="/">
-            <Home />
+            <Main />
           </Route>
         </Switch>
       </div>

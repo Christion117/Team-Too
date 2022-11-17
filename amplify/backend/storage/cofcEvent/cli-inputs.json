@@ -1,0 +1,14 @@
+{
+  "resourceName": "cofcEvent",
+  "tableName": "cofcEvent",
+  "partitionKey": {
+    "fieldName": "cofcEventId",
+    "fieldType": "number"
+  },
+  "sortKey": {
+    "fieldName": "cofcEventName",
+    "fieldType": "number"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}
