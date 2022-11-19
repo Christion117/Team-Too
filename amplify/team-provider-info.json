@@ -1,0 +1,31 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-teamtoo-dev-182303-authRole",
+      "UnauthRoleArn": "arn:aws:iam::659023088945:role/amplify-teamtoo-dev-182303-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::659023088945:role/amplify-teamtoo-dev-182303-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-teamtoo-dev-182303-deployment",
+      "UnauthRoleName": "amplify-teamtoo-dev-182303-unauthRole",
+      "StackName": "amplify-teamtoo-dev-182303",
+      "StackId": "arn:aws:cloudformation:us-east-1:659023088945:stack/amplify-teamtoo-dev-182303/ee64d0b0-5645-11ed-8b14-12e72f8c322f",
+      "AmplifyAppId": "d1tsrlfvqzpxpy",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-teamtoo-dev-182303-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "auth": {
+        "teamtooff733583": {}
+      },
+      "function": {
+        "teamtoo802e6c72": {
+          "deploymentBucketName": "amplify-teamtoo-dev-182303-deployment",
+          "s3Key": "amplify-builds/teamtoo802e6c72-6c6947524e44347a4233-build.zip"
+        },
+        "cofcEventHandler": {
+          "deploymentBucketName": "amplify-teamtoo-dev-182303-deployment",
+          "s3Key": "amplify-builds/cofcEventHandler-51455443417737547a56-build.zip"
+        }
+      }
+    }
+  }
+}

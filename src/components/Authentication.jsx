@@ -1,25 +1,19 @@
-import React,{useState} from 'react'
+import React, { useState } from 'react'
 
+export default function Authentication() {
+  const [userName, setUserName] = useState('')
+  const [password, setPassword] = useState('')
 
-function Authentication() {
-    const [username, setUsername] = useState('')
-    const [password, setPassword] = useState('')
-    const [isAuthenticated, setIsAuthenticated] = useState(false)
+  const authenticate = () => {
+
+  }
+
+  const forgotPassword = () => {
+
+  }
 
   return (
-    <div>Authentication
-        <form>
-            <label>Username</label>
-            <input type="text" value={username} onChange={(e) => setUsername(e.target.value)}></input>
-            <label>Password</label>
-            <input type="password" value={password} onChange={(e) => setPassword(e.target.value)}></input>
-            <button onClick={() => {
-                if (username === 'admin' && password === 'admin') {
-                    setIsAuthenticated(true)
-                }
-            }}>Login</button>
-        </form>
-    </div>
+    <div>Authentication</div>
   )
 }
 
