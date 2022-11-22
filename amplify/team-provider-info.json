@@ -27,5 +27,27 @@
         }
       }
     }
+  },
+  "chris": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-teamtoo-chris-115448-authRole",
+      "UnauthRoleArn": "arn:aws:iam::927678677716:role/amplify-teamtoo-chris-115448-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::927678677716:role/amplify-teamtoo-chris-115448-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-teamtoo-chris-115448-deployment",
+      "UnauthRoleName": "amplify-teamtoo-chris-115448-unauthRole",
+      "StackName": "amplify-teamtoo-chris-115448",
+      "StackId": "arn:aws:cloudformation:us-east-1:927678677716:stack/amplify-teamtoo-chris-115448/61165990-6a86-11ed-a5c6-0ea1edc24561",
+      "AmplifyAppId": "dt3u36ljlgqaj"
+    },
+    "categories": {
+      "auth": {
+        "teamtooff733583": {}
+      },
+      "function": {
+        "teamtoo802e6c72": {},
+        "cofcEventHandler": {}
+      }
+    }
   }
 }
